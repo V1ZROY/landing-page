@@ -10,12 +10,29 @@ title {
     display: none;
 }
 
+a:link { 
+    text-decoration: none; 
+}
+
+a:visited { 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: none; 
+}
+
+a:active { 
+    text-decoration: none; 
+}
 
 button {
     box-sizing: border-box;
     width: 100px;
     height: 2rem;
-    border-color: #3882f6;
+    border-color: #e63946;
+    background-color: #e63946;
+    color: #f1faee;
     border-radius: 5px;
     font-weight: bold;
     border-style: solid;
@@ -25,7 +42,7 @@ button {
 }
 
 .whiteborder {
-    border-color: #f9faf8;
+    border-color: #f1faee;
 }
 
 body {
@@ -41,21 +58,21 @@ body {
 }
 
 .darkbackground {
-    background-color: #1f2937;
+    background-color: #1d3557;
     color: #f9faf8;
 }
 
 .whitebackground {
-    background-color: #f9faf8;
+    background-color: #f1faee;
 }
 
 .greybackground {
-    background-color: #e5e7eb;
+    background-color: #a8dadc;
     color: #1f2937;
 }
 
 .bluebackground {
-    background-color: #3882f6;
+    background-color: #457b9d;
     color: #f9faf8;
 }
 
